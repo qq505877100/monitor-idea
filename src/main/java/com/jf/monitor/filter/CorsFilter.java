@@ -1,5 +1,7 @@
 package com.jf.monitor.filter;
 
+import org.springframework.stereotype.Component;
+
 import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -7,6 +9,7 @@ import java.io.IOException;
 /**
  * Created by Administrator on 2018/6/19.
  */
+@Component
 public class CorsFilter implements Filter{
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
