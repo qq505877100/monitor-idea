@@ -13,6 +13,7 @@ import java.util.*;
 @RequestMapping("/test")
 public class TestController {
 
+	//test
 	@RequestMapping("/test")
 	public Object test(@RequestBody String data) {
 		System.out.println("data:"+data);
